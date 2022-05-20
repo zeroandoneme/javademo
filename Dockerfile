@@ -1,4 +1,4 @@
-FROM java:8
+FROM public.ecr.aws/bitnami/java:17
 WORKDIR /
 ADD target/*.jar Demo.jar
 EXPOSE 8080
